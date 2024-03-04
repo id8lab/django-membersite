@@ -20,6 +20,8 @@ To learn more about Django, see the documentation [here](https://docs.djangoproj
 to launch the server enter the membersite folder and run:
 
 ```shell
+python manage.py migrate
+
 python manage.py runserver
 
 ```
