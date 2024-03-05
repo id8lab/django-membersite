@@ -1,7 +1,8 @@
 <!-- templates/base.html -->
 <!DOCTYPE html>
 <html>
-
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 <head>
   <meta charset="utf-8">
   <title>{% block title %}Membership site{% endblock %}</title>
